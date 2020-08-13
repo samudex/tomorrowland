@@ -3,7 +3,10 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #141414;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 18px;
   }
   
   .main-menu > ul.topnav li {
@@ -14,8 +17,12 @@
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 30px 8px;
     text-decoration: none;
+  }
+
+  a.logo{
+    padding: 0 !important;
   }
   
   .main-menu >ul.topnav li a:hover:not(.active) {
