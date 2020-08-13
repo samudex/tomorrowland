@@ -1,0 +1,15 @@
+.header {
+  background-color: red;
+}
+
+.main {
+  background-color: green;
+}
+
+.footer {
+  background-color: blue;
+}
+
+h2 {
+  margin: 0;
+}
