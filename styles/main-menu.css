@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Roboto';
-  src: url(".fonts/Roboto-Black.ttf") format('truetype');
+  src: url("./maincss.css") format('truetype');
   font-weight: bold;
   font-style: normal;
 }
