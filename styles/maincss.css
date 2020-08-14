@@ -1,4 +1,4 @@
-p{
+p {
   color: white;
 }
 
@@ -23,8 +23,6 @@ p{
 .banner > .flex-container > .around {
   padding-bottom: 20px;
 }
-
-
 
 .banner > .flex-container > .tiempos {
   color: white;
@@ -51,7 +49,6 @@ p{
   background-color: #013861;
 }
 
-
 p.around-1 {
   font-family: titlingbold;
   font-size: 48px;
@@ -61,13 +58,14 @@ p.around-1 {
   margin-top: 2px;
 }
 
-p.around-2, p.around-3 {
+p.around-2,
+p.around-3 {
   font-family: titlingstand;
   font-size: 24px;
   margin: 0;
 }
 
-p.around-3{
+p.around-3 {
   color: #76bbf4;
 }
 
@@ -220,18 +218,19 @@ p.around-3{
   text-align: left;
 }
 
-.section3 > .row > .col-md-6 > h3::before, .section3 > .row > .col-md-6 > .amistad > h3::before {
+.section3 > .row > .col-md-6 > h3::before,
+.section3 > .row > .col-md-6 > .amistad > h3::before {
   content: "";
   content: url("../images/horizontal-stroke.png");
   display: inline-block;
   position: absolute;
   transform: translate(0px, 10px);
 }
-.section3 > .row > .delta-col{
+.section3 > .row > .delta-col {
   padding-top: 10px;
   text-align: center;
+  margin-bottom: 20px;
 }
-
 
 .section3 > .row > .delta-col > h3 {
   text-align: left;
@@ -244,15 +243,33 @@ p.around-3{
 }
 
 .section3 > .row > .delta-col > .amistad > p {
-    color: white;
-    font-family: titlinglight;
-    font-size: 24px;
-    max-width: 355px;
+  color: white;
+  font-family: titlinglight;
+  font-size: 24px;
+  max-width: 355px;
 }
 
+@media only screen and (min-width: 400px) {
+  .section3 > .row > .delta-col > .amistad > .auxilio {
+    display: inline-block;
+    position: absolute;
+    bottom: -8%;
+    right: 19%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .section3 > .row > .delta-col > .amistad > .auxilio {
+    text-align: center;
+  }
+}
 
+@media only screen and (max-width: 400px) {
+  .section3 > .row > .delta-col > .amistad > p {
+    font-size: 1rem;
+  }
+}
 
-.section3 > .row > .col-md-6 > button{
+.section3 > .row > .col-md-6 > button {
   position: absolute;
   right: 150px;
   bottom: 20px;
@@ -264,40 +281,45 @@ p.around-3{
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
-  min-height: 218px;
+  /* min-height: 218px; */
   background-color: #141414;
 }
 
-.section4 > div{
-  padding-bottom:1rem;
+.section4 > div {
+  padding-bottom: 5px;
 }
 
 .section4 > div.logo {
   text-align: center;
 }
 
-
-.section4 > .favicons >  ul {
+.section4 > .favicons > ul {
   list-style-type: none;
   padding: 0;
   margin-bottom: 0;
   text-align: center;
 }
 
-.section4 > .favicons >  ul > li {
+.section4 > .favicons > ul > li {
   display: inline-block;
 }
 
-.section4 > .copyleft{
+.section4 > .copyleft {
   text-align: center;
   font-family: robotolight;
+  font-size: 20px;
 }
 
-.section4 > .dummy-radio{
+.section4 > .dummy-radio {
   padding: 0;
   margin: 0;
   text-align: center;
-  background-color:#1669df;
+  background-color: #1669df;
+}
+
+.section4 > .dummy-radio > a > img {
+  display: inline-block;
+  width: 100%;
 }
 
 h2.helper {
@@ -331,5 +353,5 @@ button::after {
 
 .row {
   margin-right: 0px;
-    margin-left: 0px;
+  margin-left: 0px;
 }
