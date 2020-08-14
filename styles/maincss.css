@@ -268,11 +268,37 @@ p.around-3{
   background-color: #141414;
 }
 
+.section4 > div{
+  padding-bottom:1rem;
+}
+
+.section4 > div.logo {
+  text-align: center;
+}
+
+
+.section4 > .favicons >  ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.section4 > .favicons >  ul > li {
+  display: inline-block;
+}
+
+.section4 > .copyleft{
+  text-align: center;
+  font-family: robotolight;
+}
+
+
 h2.helper {
   margin: 0;
   color: red;
   position: absolute;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 
