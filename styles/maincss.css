@@ -293,6 +293,13 @@ p.around-3{
   font-family: robotolight;
 }
 
+.section4 > .dummy-radio{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  width:100%;
+  background-color:#1669df;
+}
 
 h2.helper {
   margin: 0;
@@ -300,8 +307,6 @@ h2.helper {
   position: absolute;
   font-size: 14px;
 }
-
-
 
 p.sky-stroke::before {
   content: url("../images/sky-stroke.png");
