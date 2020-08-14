@@ -1,38 +1,3 @@
-@font-face {
-  font-family: Roboto;
-  src: url('../fonts/Roboto-Black.ttf') format('truetype');
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Robotoregular;
-  src: url('../fonts/Roboto-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: titlingstand;
-  src: url('../fonts/TitlingGothicFBComp-Stand.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: titlinglight;
-  src: url('../fonts/TitlingGothicFBComp-Light.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: titlingbold;
-  src: url('../fonts/TitlingGothicFBComp-Bold.otf') format('opentype');
-  font-weight: bold;
-  font-style: normal;
-}
-
 .main-menu > ul.topnav {
   list-style-type: none;
   margin: 0;
