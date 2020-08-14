@@ -65,12 +65,21 @@
   padding-top: 415px;
 }
 
+
+
 .section2 > .tomo > h2.tomorrow {
   font-family: "Roboto";
   font-size: 48px;
   color: white;
   text-align: center;
   margin-bottom: 0;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .section2 > .tomo > h2.tomorrow {
+    font-size: 2rem;
+  }
 }
 
 .section2 > .tomo > h2.after {
@@ -99,6 +108,7 @@
   color: white;
   list-style-type: none;
   padding: 0;
+  margin-bottom: 0;
   text-align: center;
 }
 
@@ -106,16 +116,16 @@
   display: inline-block;
 }
 
-.section2 > .tomo > ul.vive > li::after{
+.section2 > .tomo > ul.vive > li::after {
   content: "";
   content: url("../images/vertical-line.png");
   padding: 0px 0px 0px 4px;
   display: inline-block;
-    transform: translate(0px, 6px);
+  transform: translate(0px, 6px);
 }
-.section2 > .tomo > ul.vive > :last-child::after{
+.section2 > .tomo > ul.vive > :last-child::after {
   content: "";
-  padding: 0  ;
+  padding: 0;
 }
 
 .section3 {
