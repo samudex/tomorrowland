@@ -147,6 +147,13 @@ p{
   padding: 70px 0 0 250px;
 }
 
+@media only screen and (max-width: 375px) {
+  .section3 > .row > .col-md-6 > .button-container {
+    text-align: center;
+    padding: 0;
+  }
+}
+
 .section3 > .row > .alpha-col {
   background-image: url("../images/lareunion.jpg");
   background-position: 50% 50%;
@@ -177,7 +184,14 @@ p{
   padding: 110px 0 0 0px;
 }
 
-.section3 > .row > .col-md-6 > h3::before {
+.section3 > .row > .col-md-6 > .amistad > h3 {
+  font-family: titlinglight;
+  font-size: 48px;
+  color: #ffffff;
+  text-align: left;
+}
+
+.section3 > .row > .col-md-6 > h3::before, .section3 > .row > .col-md-6 > .amistad > h3::before {
   content: "";
   content: url("../images/horizontal-stroke.png");
   display: inline-block;
@@ -186,21 +200,28 @@ p{
 }
 .section3 > .row > .delta-col{
   padding-top: 10px;
+  text-align: center;
 }
 
 
 .section3 > .row > .delta-col > h3 {
-
   text-align: left;
   padding: 0;
 }
 
-.section3 > .row > .delta-col > p {
+.section3 > .row > .delta-col > .amistad {
+  display: inline-block;
+  text-align: left;
+}
+
+.section3 > .row > .delta-col > .amistad > p {
     color: white;
     font-family: titlinglight;
     font-size: 24px;
     max-width: 355px;
 }
+
+
 
 .section3 > .row > .col-md-6 > button{
   position: absolute;
@@ -247,4 +268,9 @@ button::after {
   content: url("../images/chevron.png");
   padding-left: 14px;
   padding-right: 2px;
+}
+
+.row {
+  margin-right: 0px;
+    margin-left: 0px;
 }
