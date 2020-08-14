@@ -26,6 +26,12 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: titlingbold;
+  src: url('../fonts/TitlingGothicFBComp-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
 
 .main-menu > ul.topnav {
   list-style-type: none;

@@ -16,8 +16,15 @@ p{
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  align-content: flex-start;
+  align-content: flex-end;
+  min-height: 500px;
 }
+
+.banner > .flex-container > .around {
+  padding-bottom: 20px;
+}
+
+
 
 .banner > .flex-container > .tiempos {
   color: white;
@@ -31,6 +38,8 @@ p{
 .banner > .flex-container > .tiempos > p {
   margin: 0;
   text-shadow: 1px 1px 2px #117396, 0 0 1em #ffffff, 0 0 0.2em #117396;
+  font-size: 16px;
+  line-height: 2.5rem;
 }
 
 .section1 {
@@ -40,6 +49,26 @@ p{
   background-size: auto; /* Resize the background image to cover the entire container */
   /*min-height: 450px;*/
   background-color: #013861;
+}
+
+
+p.around-1 {
+  font-family: titlingbold;
+  font-size: 48px;
+  max-width: 215px;
+  line-height: 3.5rem;
+  margin: 0;
+  margin-top: 2px;
+}
+
+p.around-2, p.around-3 {
+  font-family: titlingstand;
+  font-size: 24px;
+  margin: 0;
+}
+
+p.around-3{
+  color: #76bbf4;
 }
 
 .section-1-paragraph {
