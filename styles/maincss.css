@@ -92,6 +92,32 @@
     height: 128px;
     transform: scale(.8); */
 }
+
+.section2 > .tomo > ul.vive {
+  font-family: titlinglight;
+  font-size: 36px;
+  color: white;
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.section2 > .tomo > ul.vive > li {
+  display: inline-block;
+}
+
+.section2 > .tomo > ul.vive > li::after{
+  content: "";
+  content: url("../images/vertical-line.png");
+  padding: 0px 0px 0px 4px;
+  display: inline-block;
+    transform: translate(0px, 6px);
+}
+.section2 > .tomo > ul.vive > :last-child::after{
+  content: "";
+  padding: 0  ;
+}
+
 .section3 {
   background-image: url("../images/section3.jpg");
   background-position: center; /* Center the image */
