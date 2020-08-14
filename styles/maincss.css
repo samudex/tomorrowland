@@ -1,3 +1,7 @@
+p{
+  color: white;
+}
+
 .banner {
   background-image: url("../images/banner.jpg");
   background-position: center; /* Center the image */
