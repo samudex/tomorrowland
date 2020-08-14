@@ -47,12 +47,10 @@
 
 @media only screen and (min-width: 768px) {
   .section-1-paragraph {
-  padding-right: 35px;
-  margin-top: 4rem;
+    padding-right: 35px;
+    margin-top: 4rem;
   }
 }
-
-
 
 .section2 {
   background-image: url("../images/section2.jpg");
@@ -63,6 +61,37 @@
   background-color: #141414;
 }
 
+.section2 > .tomo {
+  padding-top: 415px;
+}
+
+.section2 > .tomo > h2.tomorrow {
+  font-family: "Roboto";
+  font-size: 48px;
+  color: white;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.section2 > .tomo > h2.after {
+  font-family: "titlingstand";
+  font-size: 48px;
+  color: #76bbf4;
+  text-align: center;
+  /* margin-left: 50px; */
+}
+
+.section2 > .tomo > h2.after::after {
+  content: "";
+  content: url("../images/aftermovie.png");
+  padding: 0px 0px 0px 10px;
+
+  display: inline-block;
+  transform: translate(0px, 6px);
+  /* width: 10px; 
+    height: 128px;
+    transform: scale(.8); */
+}
 .section3 {
   background-image: url("../images/section3.jpg");
   background-position: center; /* Center the image */
@@ -82,7 +111,7 @@
   background-color: #141414;
 }
 
-h2 {
+h2.helper {
   margin: 0;
   color: red;
   position: absolute;
@@ -93,11 +122,11 @@ p {
   color: white;
 }
 
-p.sky-stroke::before{
-  content:url('../images/sky-stroke.png');
+p.sky-stroke::before {
+  content: url("../images/sky-stroke.png");
 }
 
-button{
+button {
   margin-bottom: 20px;
   margin-right: 20px;
   background-color: #76bbf4;
@@ -108,10 +137,8 @@ button{
   text-transform: uppercase;
 }
 
-button::after{
-  content:url('../images/chevron.png');
+button::after {
+  content: url("../images/chevron.png");
   padding-left: 14px;
   padding-right: 2px;
-  
 }
-
