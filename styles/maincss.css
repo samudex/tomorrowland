@@ -24,6 +24,11 @@ p {
   padding-bottom: 20px;
 }
 
+a.botonflecha > img{
+  position: absolute;
+  transform: translate(131px, -83px);    
+}
+
 .banner > .flex-container > .tiempos {
   color: white;
   font-family: RobotoRegular;
@@ -40,13 +45,48 @@ p {
   line-height: 2.5rem;
 }
 
+@media only screen and (min-width: 768px) {
+  .banner > .flex-container > .tiempos {
+    margin-top: 80px;
+  }
+}
+
+.banner > .flex-container > .tickets {
+  width: 150px;
+  text-align: center;
+}
+
+.banner > .flex-container > .tickets > button {
+  margin-bottom: 20px;
+  width: 97px;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .banner > .flex-container > .tickets {
+    padding-top: 187px;
+  }
+}
+
 .section1 {
   background-image: url("../images/section1.jpg");
   background-position: 0% 100%;
   background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: auto; /* Resize the background image to cover the entire container */
+  background-size: cover; /* Resize the background image to cover the entire container */
   /*min-height: 450px;*/
   background-color: #013861;
+}
+
+.section1 > .container-fluid > .row > .col-md-7 > p.reflection {
+  font-family: titlingstand;
+  font-size: 38px;
+  margin-top: 3rem;
+  margin-bottom: 0;
+  line-height: 28px;
+}
+.section1 > .container-fluid > .row > .col-md-7 > p.sky-stroke {
+  font-family: titlingstand;
+  font-size: 30px;
 }
 
 p.around-1 {
@@ -88,7 +128,7 @@ p.around-3 {
   background-position: 50% 0%; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
-  min-height: 630px;
+  min-height: 627px;
   background-color: #141414;
 }
 
@@ -327,6 +367,8 @@ h2.helper {
   color: red;
   position: absolute;
   font-size: 14px;
+  /* visibility: hidden; */
+  display: none;
 }
 
 p.sky-stroke::before {
