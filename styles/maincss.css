@@ -138,6 +138,11 @@
   max-height: 300px;
 }
 
+.section3 > .row > .col-md-6 > .button-container {
+  text-align: center;
+  padding: 70px 0 0 250px;
+}
+
 .section3 > .row > .alpha-col {
   background-image: url("../images/lareunion.jpg");
   background-position: 50% 50%;
@@ -175,11 +180,25 @@
   position: absolute;
   transform: translate(0px, 10px);
 }
+.section3 > .row > .delta-col{
+  padding-top: 10px;
+}
+
 
 .section3 > .row > .delta-col > h3 {
+
   text-align: left;
   padding: 0;
 }
+
+.section3 > .row > .delta-col > p {
+    color: white;
+    font-family: titlinglight;
+    font-size: 24px;
+    max-width: 355px;
+}
+
+
 
 .section3 > .row > .col-md-6 > button{
   /* transform: translate(389px, 53px); */
@@ -205,9 +224,7 @@ h2.helper {
   font-size: 12px;
 }
 
-p {
-  color: white;
-}
+
 
 p.sky-stroke::before {
   content: url("../images/sky-stroke.png");
