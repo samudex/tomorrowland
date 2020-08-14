@@ -12,6 +12,15 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: titlingstand;
+  src: url('../fonts/TitlingGothicFBComp-Stand.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
 .main-menu > ul.topnav {
   list-style-type: none;
   margin: 0;

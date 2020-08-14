@@ -1,24 +1,9 @@
-@font-face {
-  font-family: Roboto;
-  src: url('../fonts/Roboto-Black.ttf') format('truetype');
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Robotoregular;
-  src: url('../fonts/Roboto-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-
 .banner {
   background-image: url("../images/banner.jpg");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
-  height: 438px;
+  min-height: 438px;
   background-color: #031432;
 }
 
@@ -45,10 +30,10 @@
 
 .section1 {
   background-image: url("../images/section1.jpg");
-  background-position: left;
+  background-position: 0% 100%;
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: auto; /* Resize the background image to cover the entire container */
-  height: 450px;
+  /*min-height: 450px;*/
   background-color: #013861;
 }
 
@@ -58,12 +43,21 @@
   font-weight: normal;
 }
 
+@media only screen and (min-width: 768px) {
+  .section-1-paragraph {
+  padding-right: 30px;
+  margin-top: 4rem;
+  }
+}
+
+
+
 .section2 {
   background-image: url("../images/section2.jpg");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
-  height: 630px;
+  min-height: 630px;
   background-color: #141414;
 }
 
@@ -72,7 +66,7 @@
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
-  height: 570px;
+  min-height: 570px;
   background-color: #141414;
 }
 
@@ -82,7 +76,7 @@
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
-  height: 218px;
+  min-height: 218px;
   background-color: #141414;
 }
 
@@ -95,4 +89,8 @@ h2 {
 
 p {
   color: white;
+}
+
+p.sky-stroke::before{
+  content:url('../images/sky-stroke.png');
 }
