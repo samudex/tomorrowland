@@ -1,3 +1,18 @@
+@font-face {
+  font-family: Roboto;
+  src: url('../fonts/Roboto-Black.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Robotoregular;
+  src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 .banner {
   background-image: url("../images/banner.jpg");
   background-position: center; /* Center the image */
@@ -10,32 +25,14 @@
 .banner > .flex-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-content: center;
+  justify-content: space-around;
   align-items: center;
-}
-
-.banner > .flex-item:nth-child(1) {
-  order: 0;
-  flex: 0.5 1 auto;
-  align-self: auto;
-}
-
-.banner > .flex-item:nth-child(2) {
-  order: 0;
-  flex: 1 0 auto;
-  align-self: auto;
-}
-
-.banner > .flex-item:nth-child(3) {
-  order: 0;
-  flex: 0.5 1 auto;
-  align-self: auto;
+  align-content: flex-start;
 }
 
 .banner > .flex-container > .tiempos {
   color: white;
-  font-family: Roboto;
+  font-family: RobotoRegular;
   font-size: 12px;
   text-align: center;
   line-height: 24px;
@@ -53,6 +50,12 @@
   background-size: auto; /* Resize the background image to cover the entire container */
   height: 450px;
   background-color: #013861;
+}
+
+.section-1-paragraph {
+  font-size: 13px;
+  font-family: Robotoregular;
+  font-weight: normal;
 }
 
 .section2 {
