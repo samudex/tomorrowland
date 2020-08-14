@@ -182,7 +182,10 @@
 }
 
 .section3 > .row > .col-md-6 > button{
-  transform: translate(389px, 53px);
+  /* transform: translate(389px, 53px); */
+  position: absolute;
+  right: 150px;
+  bottom: 20px;
 }
 
 .section4 {
