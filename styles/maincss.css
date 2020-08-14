@@ -7,36 +7,55 @@
   background-color: #031432;
 }
 
-.banner > .tiempos {
-    color: white;
-    font-family: Roboto;
-    font-size: 12px;
-    text-align: center;
-    line-height: 24px;
-    text-transform: uppercase;
+.banner > .flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
 }
 
-@media only screen and (min-width: 300px) {
-  .banner > .tiempos {
-  position: relative;
-  transform: translate(0%, 225%);
-  }
+.banner > .flex-item:nth-child(1) {
+  order: 0;
+  flex: 0.5 1 auto;
+  align-self: auto;
 }
 
-.banner > .tiempos > p{
+.banner > .flex-item:nth-child(2) {
+  order: 0;
+  flex: 1 0 auto;
+  align-self: auto;
+}
+
+.banner > .flex-item:nth-child(3) {
+  order: 0;
+  flex: 0.5 1 auto;
+  align-self: auto;
+}
+
+.banner > .flex-container > .tiempos {
+  color: white;
+  font-family: Roboto;
+  font-size: 12px;
+  text-align: center;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.banner > .flex-container > .tiempos > p {
   margin: 0;
 }
 
 .section1 {
   background-image: url("../images/section1.jpg");
-  background-position: left; 
+  background-position: left;
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: auto; /* Resize the background image to cover the entire container */
   height: 450px;
   background-color: #013861;
 }
 
-.section2{
+.section2 {
   background-image: url("../images/section2.jpg");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
@@ -69,4 +88,8 @@ h2 {
   color: red;
   position: absolute;
   font-size: 12px;
+}
+
+p {
+  color: white;
 }
