@@ -7,6 +7,26 @@
   background-color: #031432;
 }
 
+.banner > .tiempos {
+    color: white;
+    font-family: Roboto;
+    font-size: 12px;
+    text-align: center;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+@media only screen and (min-width: 300px) {
+  .banner > .tiempos {
+  position: relative;
+  transform: translate(0%, 225%);
+  }
+}
+
+.banner > .tiempos > p{
+  margin: 0;
+}
+
 .section1 {
   background-image: url("../images/section1.jpg");
   background-position: left; 
@@ -46,5 +66,7 @@
 
 h2 {
   margin: 0;
-  color: white;
+  color: red;
+  position: absolute;
+  font-size: 12px;
 }
