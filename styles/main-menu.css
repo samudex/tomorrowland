@@ -1,3 +1,37 @@
+/* .main-menu > .flex-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.main-menu > .flex-item:first-child{
+  border: 1px solid red;
+  flex: 0 50%;
+}
+
+.main-menu > .flex-item:nth-child(2){
+  border: 1px solid blue;
+
+}
+
+.main-menu > .flex-item  > ul {
+  list-style-type: none;
+}
+
+.main-menu > .flex-item  > ul > a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.main-menu > .flex-item  > ul > li {
+  display: inline-block
+} */
+
+
+
+
 .main-menu > ul.topnav {
   list-style-type: none;
   margin: 0;
@@ -29,8 +63,12 @@ a.logo {
   background-color: #111;
 }
 
-.main-menu > ul.topnav li a.active {
-  background-color: #4caf50;
+.main-menu > ul.topnav li a.active::before {
+    content: "";
+    content: url("../images/horizontal-stroke-blue.png");
+    display: inline-block;
+    position: absolute;
+    transform: translate(0px, 10px);
 }
 
 .main-menu > ul.topnav li.right {
