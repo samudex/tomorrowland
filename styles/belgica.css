@@ -1,7 +1,3 @@
-body {
-  margin: 0;
-}
-
 p {
   color: white;
 }
@@ -227,50 +223,79 @@ p.around-2 {
   padding: 0;
 }
 
+/* sectionlinea */
 
-.section3 {
-  min-height: 650px;
+.sectionlinea {
   background-color: #141414;
+  border: 1px solid red;
 }
 
-/* .section3 > .row > .alpha-col, .section3 > .row > .delta-col{
-  min-height: 340px;
-} */
-
-.section3 > .row > .col-md-6 > h3 {
-  font-family: titlinglight;
-  font-size: 42px;
+.sectionlinea  h2{
+  font-family: titlingbold;
   color: #ffffff;
+  font-size: 48px;
 }
 
-.section3 > .row > .col-md-6 > p {
-  font-family: titlinglight;
+.sectionlinea  h4{
+  font-family: titlingstand;
+  color: #ffffff;
   font-size: 24px;
 }
 
-.section3 > .row{
-  min-height: 340px;
-  max-height: 340px;
+.sectionlinea  h3, p{
+  color: #ffffff;
+  font-family: titlinglight;
+}
+
+.sectionlinea h3{
+  font-size: 42px;
+}
+
+.sectionlinea p{
+  font-size: 24px;
+}
+
+
+
+
+
+/* section3 */
+
+/* .section3 {
+  background-color: #141414;
+}
+
+.section3 > .row > .col-md-6{
+  text-align: center;
+  min-height: 300px;
+  max-height: 300px;
+  
 }
 
 .section3 > .row > .alpha-col{
-  background-image: url("../images/alpha-background.png");
-  background-repeat: no-repeat;
-  background-position: center;
   border-right: 1px solid #242424;
   border-bottom: 1px solid #242424;
 }
 
 .section3 > .row > .delta-col{
-  background-image: url("../images/delta-background.png");
-  background-repeat: no-repeat;
-  background-position: center;
   border-left: 1px solid #242424;
   border-top: 1px solid #242424;
 }
 
 
 
+.section3 > .row > .col-md-6 > h3 {
+  font-family: titlinglight;
+  font-size: 42px;
+  color: #ffffff;
+  text-align: left;
+  }
+
+.section3 > .row > .col-md-6 > p {
+  font-family: titlinglight;
+  font-size: 24px;
+  text-align: left;
+} */
 
 
 
@@ -281,12 +306,7 @@ p.around-2 {
 
 
 
-
-
-
-
-
-
+/* section4 */
 
 
 .section4 {
