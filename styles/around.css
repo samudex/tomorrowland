@@ -114,7 +114,7 @@ p.around-3 {
   background-image: url("../images/around-section1.png");
   background-position: 50% 0%; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: auto; /* Resize the background image to cover the entire container */
+  background-size: cover; /* Resize the background image to cover the entire container */
   min-height: 627px;
   background-color: #141414;
 }
