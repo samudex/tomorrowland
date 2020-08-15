@@ -121,7 +121,7 @@ p.around-3 {
 }
 
 .section2 {
-  background-image: url("../images/around-section1.png");
+  background-image: url("../images/around-section1.jpeg");
   background-position: 50% 0%; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
