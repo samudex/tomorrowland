@@ -230,6 +230,7 @@ p.around-3 {
 
 
 .section4 {
+    border: none;
     /*background-image: url("../images/section4.jpg");*/
     background-color: #141414;
     background-position: center; /* Center the image */
@@ -244,6 +245,7 @@ p.around-3 {
   }
   
   .section4 > div.logo {
+      border: none;
     text-align: center;
   }
   
