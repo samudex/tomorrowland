@@ -55,9 +55,8 @@ button::after {
   .banner > .flex-container {
     padding: 0 50px !important;
     justify-content: space-between;
-  } 
+  }
 }
-
 
 .banner > .flex-container > .around {
   padding-bottom: 20px;
@@ -107,18 +106,13 @@ button::after {
   justify-content: space-between;
   align-items: center;
   align-content: center;
-
 }
 
-@media only screen and (max-width: 600px){
-.banner > .flex-container > .tickets > .button-container{
-  
+@media only screen and (max-width: 600px) {
+  .banner > .flex-container > .tickets > .button-container {
     margin-bottom: 20px;
   }
 }
-
-
-
 
 .banner > .flex-container > .tickets > .button-container > button {
   width: 97px;
@@ -202,13 +196,66 @@ p.around-3 {
   background-image: url("../images/around-section2.png");
   min-height: 719px;
   background-color: #141414;
-  background-position: center; /* Center the image */
+  background-position: top;
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 .section3 > .row {
   margin: 0;
+  align-items: center;
+}
+
+.section3 > .row > .col-md-5 > h3 {
+  font-family: titlingbold;
+  font-size: 48px;
+  color: #ffffff;
+  line-height: 184px;
+}
+
+.section3 > .row > .col-md-5 > h3::before {
+  content: "";
+  content: url("../images/horizontal-blue-stroke.png");
+  display: inline-block;
+  position: absolute;
+  transform: translate(0px, 30px);
+}
+
+.section3 > .artists-container > .col-md-4   {
+  align-items: center;
+
+}
+
+.section3 > .artists-container > .col-md-4 > .white-box {
+  background-color: #ffffff;
+  padding: 10px;
+  /* max-width: 260px; */
+  /* margin: 50px; */
+}
+
+@media only screen and (min-width: 768px) {
+  .section3 > .artists-container > .col-md-4 > .white-box {
+    
+    
+  }
+}
+
+.section3 > .artists-container > .col-md-4 > .white-box > h4 {
+  font-family: roboto;
+  font-size: 18px;
+  text-align: center;
+  padding-bottom: 18px;
+  margin: 27px 0;
+  border-bottom: 3px solid #1881ff;
+}
+
+.section3 > .artists-container > .col-md-4 > .white-box > ul {
+  list-style-type: none;
+}
+
+.section3 > .artists-container > .col-md-4 > .white-box > ul > li {
+  font-family: Robotoregular;
+  font-size: 18px;
 }
 
 .section4 {
