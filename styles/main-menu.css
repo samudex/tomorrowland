@@ -29,37 +29,31 @@
   display: inline-block
 } */
 
-
-
-
 .main-menu > ul.topnav {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #141414;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: bold;
   font-size: 18px;
 
   display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
-.main-menu > ul.topnav li {
- 
-}
+/* @media only screen and (min-width: 768px) {
+  .main-menu > ul > .logo-li {
+    position: absolute;
+    left: 20px;
+    top: 7px;
+  }
+} */
 
-
-
-
-/* .main-menu > ul:nth-child(1) > a > img
-  {
-    transform: translate(0, 16px);
-  } */
 /* .main-menu > ul.topnav li {
   float: left;
 } */
@@ -81,11 +75,11 @@ a.logo {
 }
 
 .main-menu > ul.topnav li a.active::before {
-    content: "";
-    content: url("../images/horizontal-stroke-blue.png");
-    display: inline-block;
-    position: absolute;
-    transform: translate(0px, 10px);
+  content: "";
+  content: url("../images/horizontal-stroke-blue.png");
+  display: inline-block;
+  position: absolute;
+  transform: translate(0px, 10px);
 }
 
 .main-menu > ul.topnav li.right {
