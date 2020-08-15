@@ -331,5 +331,5 @@ h2.helper {
   position: absolute;
   font-size: 14px;
   /* visibility: hidden; */
-  /* display: none; */
+  display: none;
 }
