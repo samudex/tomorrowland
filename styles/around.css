@@ -88,17 +88,32 @@ button::after {
   text-align: center;
 }
 
-.banner > .flex-container > .tickets > button {
+.banner > .flex-container > .tickets > p{
+  text-align: left;
+  font-family: Robotoregular;
+  font-size: 14px;
+}
+
+.banner > .flex-container > .tickets > .button-container{
   margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+
+}
+
+.banner > .flex-container > .tickets > .button-container > button {
   width: 97px;
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
+/* 
 @media only screen and (min-width: 768px) {
   .banner > .flex-container > .tickets {
     padding-top: 187px;
   }
-}
+} */
 
 p.around-1 {
   font-family: titlingbold;
