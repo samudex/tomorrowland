@@ -74,13 +74,19 @@ a.logo {
   background-color: #111;
 }
 
-.main-menu > ul.topnav li a.active::before {
+.main-menu > ul.topnav li a.active{
+  /* border-bottom: 3.5px solid #1881ff; */
+  text-decoration: underline 3.5px solid #1881ff ;
+  text-underline-position: under;
+}
+
+/* .main-menu > ul.topnav li a.active::before {
   content: "";
-  content: url("../images/horizontal-stroke-blue.png");
+  content: border-bottom: 3.5px solid #1881ff;;
   display: inline-block;
   position: absolute;
   transform: translate(0px, 10px);
-}
+} */
 
 .main-menu > ul.topnav li.right {
   float: right;
