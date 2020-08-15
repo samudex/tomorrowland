@@ -40,7 +40,7 @@ button::after {
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
   min-height: 438px;
-  background-color: #031432;
+  background-color: #04529c;
 }
 
 .banner > .flex-container {
@@ -84,7 +84,7 @@ button::after {
 }
 
 .banner > .flex-container > .tickets {
-  width: 150px;
+  width: 240px;
   text-align: center;
 }
 
@@ -192,6 +192,7 @@ p.around-3 {
 
 .section4 > .vertical-line-long{
   text-align: center;
+  margin-top: 33px;
 }
 
 .section4 > div.logo {
@@ -234,5 +235,5 @@ h2.helper {
   position: absolute;
   font-size: 14px;
   /* visibility: hidden; */
-  display: none;
+  /* display: none; */
 }
