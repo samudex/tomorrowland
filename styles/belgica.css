@@ -145,3 +145,76 @@ p.around-3 {
 p.around-3 {
   color: #76bbf4;
 }
+
+.section2 {
+  background-image: url("../images/section2.jpg");
+  background-position: 50% 0%; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  min-height: 627px;
+  background-color: #141414;
+}
+
+.section2 > .tomo {
+  padding-top: 415px;
+}
+
+.section2 > .tomo > h2.tomorrow {
+  font-family: "Roboto";
+  font-size: 48px;
+  color: white;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .section2 > .tomo > h2.tomorrow {
+    font-size: 2rem;
+  }
+}
+
+.section2 > .tomo > h2.after {
+  font-family: "titlingstand";
+  font-size: 48px;
+  color: #76bbf4;
+  text-align: center;
+  /* margin-left: 50px; */
+}
+
+.section2 > .tomo > h2.after::after {
+  content: "";
+  content: url("../images/aftermovie.png");
+  padding: 0px 0px 0px 10px;
+
+  display: inline-block;
+  transform: translate(0px, 6px);
+  /* width: 10px; 
+    height: 128px;
+    transform: scale(.8); */
+}
+
+.section2 > .tomo > ul.vive {
+  font-family: titlinglight;
+  font-size: 36px;
+  color: white;
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.section2 > .tomo > ul.vive > li {
+  display: inline-block;
+}
+
+.section2 > .tomo > ul.vive > li::after {
+  content: "";
+  content: url("../images/vertical-line.png");
+  padding: 0px 0px 0px 4px;
+  display: inline-block;
+  transform: translate(0px, 6px);
+}
+.section2 > .tomo > ul.vive > :last-child::after {
+  content: "";
+  padding: 0;
+}
