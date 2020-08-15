@@ -229,14 +229,27 @@ p.around-3 {
 .section3 > .artists-container > .col-md-4 > .white-box {
   background-color: #ffffff;
   padding: 10px;
-  /* max-width: 260px; */
-  /* margin: 50px; */
 }
 
+
 @media only screen and (min-width: 768px) {
+  
+  .section3 > .artists-container > .col-md-4 > .special-box {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
   .section3 > .artists-container > .col-md-4 > .white-box {
-    
-    
+    margin-bottom: 15px;
+  }
+}
+
+
+
+@media only screen and (min-width: 768px) {
+  .section3 > .artists-container > .col-md-4 > .alpha {
+    min-height: 520px;
   }
 }
 
@@ -256,6 +269,7 @@ p.around-3 {
 .section3 > .artists-container > .col-md-4 > .white-box > ul > li {
   font-family: Robotoregular;
   font-size: 18px;
+  margin-bottom: 1rem;
 }
 
 .section4 {
