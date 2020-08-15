@@ -91,7 +91,7 @@ h2.helper {
 }
 
 .banner > .flex-container > .tickets {
-    width: 350px;
+  width: 350px;
   text-align: center;
 }
 
@@ -113,6 +113,11 @@ h2.helper {
   .banner > .flex-container > .tickets > .button-container {
     margin-bottom: 20px;
   }
+  .banner > .flex-container > .around > a.botonflecha > img {
+    position: absolute;
+    transform: translate(150px, -83px);
+  }
+
 }
 
 .banner > .flex-container > .tickets > .button-container > button {
@@ -135,15 +140,18 @@ p.around-1 {
   margin-top: 2px;
 }
 
-p.around-2,
-p.around-3 {
+p.around-2 {
   font-family: titlingstand;
   font-size: 24px;
   margin: 0;
 }
 
-p.around-3 {
-  color: #76bbf4;
+@media only screen and (max-width: 600px) {
+  p.around-1 {
+    font-size: 2rem;
+  }
+
+  
 }
 
 .section2 {
@@ -219,61 +227,51 @@ p.around-3 {
   padding: 0;
 }
 
-
-
-
-
-
-
-
-
-
-
 .section4 {
-    border: none;
-    /*background-image: url("../images/section4.jpg");*/
-    background-color: #141414;
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
-    /* min-height: 218px; */
-    background-color: #141414;
-  }
-  
-  .section4 > div {
-    padding-bottom: 5px;
-  }
-  
-  .section4 > div.logo {
-      border: none;
-    text-align: center;
-  }
-  
-  .section4 > .favicons > ul {
-    list-style-type: none;
-    padding: 0;
-    margin-bottom: 0;
-    text-align: center;
-  }
-  
-  .section4 > .favicons > ul > li {
-    display: inline-block;
-  }
-  
-  .section4 > .copyleft {
-    text-align: center;
-    font-family: robotolight;
-    font-size: 20px;
-  }
-  
-  .section4 > .dummy-radio {
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    background-color: #1669df;
-  }
-  
-  .section4 > .dummy-radio > a > img {
-    display: inline-block;
-    width: 100%;
-  }
+  border: none;
+  /*background-image: url("../images/section4.jpg");*/
+  background-color: #141414;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  /* min-height: 218px; */
+  background-color: #141414;
+}
+
+.section4 > div {
+  padding-bottom: 5px;
+}
+
+.section4 > div.logo {
+  border: none;
+  text-align: center;
+}
+
+.section4 > .favicons > ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.section4 > .favicons > ul > li {
+  display: inline-block;
+}
+
+.section4 > .copyleft {
+  text-align: center;
+  font-family: robotolight;
+  font-size: 20px;
+}
+
+.section4 > .dummy-radio {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  background-color: #1669df;
+}
+
+.section4 > .dummy-radio > a > img {
+  display: inline-block;
+  width: 100%;
+}
