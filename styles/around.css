@@ -24,6 +24,16 @@ button::after {
   padding-right: 2px;
 }
 
+.section2 > .tomo > button {
+  width: 200px;
+  padding: 5px;
+  text-align: center;
+}
+
+.section2 > .tomo > button::after {
+  content: "";
+}
+
 .banner {
   background-image: url("../images/banner-around-page.png");
   background-position: center; /* Center the image */
@@ -115,12 +125,14 @@ p.around-3 {
   background-position: 50% 0%; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
-  min-height: 627px;
-  background-color: #141414;
+  min-height: 376px;
+  max-height: 376px;
+  background-color: #141414;  
 }
 
 .section2 > .tomo {
-  padding-top: 415px;
+  padding-top: 168px;
+  text-align: center;
 }
 
 .section2 > .tomo > h2.tomorrow {
@@ -129,6 +141,7 @@ p.around-3 {
   color: white;
   text-align: center;
   margin-bottom: 0;
+  line-height: 50px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -152,33 +165,74 @@ p.around-3 {
 
   display: inline-block;
   transform: translate(0px, 6px);
-  /* width: 10px; 
-      height: 128px;
-      transform: scale(.8); */
 }
 
-.section2 > .tomo > ul.vive {
-  font-family: titlinglight;
-  font-size: 36px;
-  color: white;
+
+.section3 {
+  background-image: url("../images/around-section2.png");
+  min-height: 719px;
+}
+
+
+.section4 {
+  /*background-image: url("../images/section4.jpg");*/
+  background-color: #141414;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  /* min-height: 218px; */
+  background-color: #141414;
+}
+
+.section4 > div {
+  padding-bottom: 5px;
+}
+
+
+
+.section4 > .vertical-line-long{
+  text-align: center;
+}
+
+.section4 > div.logo {
+  text-align: center;
+}
+
+.section4 > .favicons > ul {
   list-style-type: none;
   padding: 0;
   margin-bottom: 0;
   text-align: center;
 }
 
-.section2 > .tomo > ul.vive > li {
+.section4 > .favicons > ul > li {
   display: inline-block;
 }
 
-.section2 > .tomo > ul.vive > li::after {
-  content: "";
-  content: url("../images/vertical-line.png");
-  padding: 0px 0px 0px 4px;
-  display: inline-block;
-  transform: translate(0px, 6px);
+.section4 > .copyleft {
+  text-align: center;
+  font-family: robotolight;
+  font-size: 20px;
+  margin-bottom: 90px;
 }
-.section2 > .tomo > ul.vive > :last-child::after {
-  content: "";
+
+.section4 > .dummy-radio {
   padding: 0;
+  margin: 0;
+  text-align: center;
+  background-color: #1669df;
+}
+
+.section4 > .dummy-radio > a > img {
+  display: inline-block;
+  width: 100%;
+}
+
+h2.helper {
+  margin: 0;
+  color: red;
+  position: absolute;
+  font-size: 14px;
+  /* visibility: hidden; */
+  /* display: none; */
 }
