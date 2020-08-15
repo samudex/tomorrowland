@@ -218,3 +218,60 @@ p.around-3 {
   content: "";
   padding: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+.section4 {
+    /*background-image: url("../images/section4.jpg");*/
+    background-color: #141414;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    /* min-height: 218px; */
+    background-color: #141414;
+  }
+  
+  .section4 > div {
+    padding-bottom: 5px;
+  }
+  
+  .section4 > div.logo {
+    text-align: center;
+  }
+  
+  .section4 > .favicons > ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  
+  .section4 > .favicons > ul > li {
+    display: inline-block;
+  }
+  
+  .section4 > .copyleft {
+    text-align: center;
+    font-family: robotolight;
+    font-size: 20px;
+  }
+  
+  .section4 > .dummy-radio {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: #1669df;
+  }
+  
+  .section4 > .dummy-radio > a > img {
+    display: inline-block;
+    width: 100%;
+  }
