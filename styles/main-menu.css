@@ -41,17 +41,34 @@
   font-family: 'Roboto';
   font-weight: bold;
   font-size: 18px;
+
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .main-menu > ul.topnav li {
-  float: left;
+ 
 }
+
+
+
+
+/* .main-menu > ul:nth-child(1) > a > img
+  {
+    transform: translate(0, 16px);
+  } */
+/* .main-menu > ul.topnav li {
+  float: left;
+} */
 
 .main-menu > ul.topnav li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 30px 8px;
+  padding: 20px 8px;
   text-decoration: none;
 }
 
