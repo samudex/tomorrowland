@@ -228,8 +228,18 @@ p.around-2 {
 .sectionlinea {
   background-color: #141414;
   border: 1px solid red;
-  background-image: url("/images/");
+
+  background-image: url("../images/sectionlinea-bg.jpg");
+
+  background-position: top; 
+  background-repeat: no-repeat; /* Do not repeat the image */
+
 }
+
+
+
+
+
 
 .sectionlinea  h2{
   font-family: titlingbold;
