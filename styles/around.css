@@ -7,8 +7,6 @@ p {
 }
 
 button {
-  /* margin-bottom: 20px;
-    margin-right: 20px; */
   background-color: #76bbf4;
   border: none;
   font-family: Roboto;
@@ -36,9 +34,9 @@ button::after {
 
 .banner {
   background-image: url("../images/banner-around-page.png");
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
   min-height: 438px;
   background-color: #04529c;
 }
@@ -118,13 +116,6 @@ button::after {
   width: 97px;
 }
 
-/* 
-@media only screen and (min-width: 768px) {
-  .banner > .flex-container > .tickets {
-    padding-top: 187px;
-  }
-} */
-
 p.around-1 {
   font-family: titlingbold;
   font-size: 48px;
@@ -147,9 +138,9 @@ p.around-3 {
 
 .section2 {
   background-image: url("../images/around-section1.jpeg");
-  background-position: 50% 0%; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
+  background-position: 50% 0%; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
   min-height: 376px;
   max-height: 376px;
   background-color: #141414;
@@ -197,8 +188,8 @@ p.around-3 {
   min-height: 719px;
   background-color: #141414;
   background-position: top;
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
+  background-repeat: no-repeat; 
+  background-size: cover; 
 }
 
 .section3 > .row {
@@ -273,12 +264,11 @@ p.around-3 {
 }
 
 .section4 {
-  /*background-image: url("../images/section4.jpg");*/
+
   background-color: #141414;
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-  /* min-height: 218px; */
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
   background-color: #141414;
 }
 

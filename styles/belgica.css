@@ -26,7 +26,7 @@ h2.helper {
   position: absolute;
   font-size: 14px;
   /* visibility: hidden; */
-  /* display: none; */
+   display: none; 
 }
 
 /* banner styles */
@@ -113,7 +113,6 @@ h2.helper {
     position: absolute;
     transform: translate(150px, -83px);
   }
-
 }
 
 .banner > .flex-container > .tickets > .button-container > button {
@@ -146,8 +145,6 @@ p.around-2 {
   p.around-1 {
     font-size: 2rem;
   }
-
-  
 }
 
 .section2 {
@@ -227,65 +224,50 @@ p.around-2 {
 
 .sectionlinea {
   background-color: #141414;
-  border: 1px solid #141414;  
-  background-position: top; 
+  border: 1px solid #141414;
+  background-position: top;
   background-repeat: no-repeat; /* Do not repeat the image */
-  
 }
-
-
-
-
-
-
-
-
-
-
 
 @media only screen and (max-width: 768px) {
-  
-    #sectionlineaone, #sectionlineathree{
-      background-position: left top; 
-      background-position: -6vw 0px;
-    }
+  #sectionlineaone,
+  #sectionlineathree {
+    background-position: left top;
+    background-position: -6vw 0px;
+  }
 
-    #sectionlineazero, #sectionlineatwo {
-      background-position: right top; 
-      background-position: -124vw 0px;
-    }
-
+  #sectionlineazero,
+  #sectionlineatwo {
+    background-position: right top;
+    background-position: -124vw 0px;
+  }
 }
 
-#sectionlineazero{
+#sectionlineazero {
   background-image: url("../images/sectionlinea-bg.jpg");
 }
 
 #sectionlineaone {
   background-image: url("../images/sectionlinea-bg-2.jpg");
-
 }
 
 #sectionlineatwo {
   background-image: url("../images/sectionlinea-bg-3.jpg");
-
 }
 
 #sectionlineathree {
   background-image: url("../images/sectionlinea-bg-4.jpg");
-  border: 1px solid red; 
+  
 }
 
-.sectionlinea  h2{
+.sectionlinea h2 {
   font-family: titlingbold;
   color: #ffffff;
   font-size: 48px;
   margin: 30px 0 30px 10px;
-
 }
 
-
-.sectionlinea  h2:before {
+.sectionlinea h2:before {
   content: "";
   content: url("../images/horizontal-blue-stroke.png");
   display: inline-block;
@@ -293,44 +275,51 @@ p.around-2 {
   transform: translate(0px, 30px);
 }
 
-.sectionlinea  h4{
+.sectionlinea h4 {
   font-family: titlingstand;
   color: #ffffff;
   font-size: 24px;
   margin-bottom: 30px;
 }
 
-.sectionlinea  h3, p{
+.sectionlinea h3, .sectionlinea p {
   color: #ffffff;
   font-family: titlinglight;
 }
 
-.sectionlinea h3{
+.sectionlinea h3 {
   font-size: 42px;
 }
 
-.sectionlinea p{
+.sectionlinea p {
   font-size: 24px;
 }
 
 .carousel {
-	margin: 20px 10px 40px 0;
+  margin: 20px 10px 40px 0;
 }
 
 @media only screen and (max-width: 600px) {
   .carousel {
     margin: 10px 0 40px 0;
   }
-
 }
 .gallery {
-	margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
-.carousel-control-prev, .carousel-control-next {
- opacity: 0;
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-image: url("../images/botonflecha.png");
+  width: 100px;
+  height: 100px;
+  opacity: 0;
+  
 }
 
+/* .carousel-control-prev,
+.carousel-control-next {
+  opacity: 0;
+} */
 
 .carousel-indicators {
   bottom: -50px;
@@ -341,9 +330,8 @@ p.around-2 {
   height: 15px;
   border-radius: 100%;
   background-color: #1669df;
-  opacity: 1  !important;
+  opacity: 1 !important;
 }
-
 
 .carousel-indicators li:not(.active) {
   background-color: #75bbf6;
@@ -356,14 +344,19 @@ p.around-2 {
   justify-content: space-evenly;
 }
 
-
 /* sectionlineaone */
 
-#sectionlineaone h2, h4, #sectionlineatwo h2, h4, #sectionlineathree h2{
+#sectionlineaone h2,
+h4,
+#sectionlineatwo h2,
+h4,
+#sectionlineathree h2 {
   visibility: hidden;
 }
 
-#sectionlineaone h3::before, #sectionlineatwo h3::before, #sectionlineathree h3::before {
+#sectionlineaone h3::before,
+#sectionlineatwo h3::before,
+#sectionlineathree h3::before, .text-wrapper > h3::before {
   content: "";
   content: url("../images/horizontal-blue-stroke.png");
   display: inline-block;
@@ -371,69 +364,86 @@ p.around-2 {
   transform: translate(0, -45px);
 }
 
-
-
-
-
 /* section3 */
 
-/* .section3 {
+.section3 {
   background-color: #141414;
 }
 
-.section3 > .row > .col-md-6{
+.section3 > .row > .col-md-6 {
   text-align: center;
   min-height: 300px;
   max-height: 300px;
-  
 }
 
-.section3 > .row > .alpha-col{
+.section3 > .row > .alpha-col {
   border-right: 1px solid #242424;
   border-bottom: 1px solid #242424;
 }
 
-.section3 > .row > .delta-col{
+.section3 > .row > .delta-col {
   border-left: 1px solid #242424;
   border-top: 1px solid #242424;
 }
 
-
-
-.section3 > .row > .col-md-6 > h3 {
+.section3 > .container > .row > .col-md-6 > .text-wrapper > h3 {
   font-family: titlinglight;
   font-size: 42px;
   color: #ffffff;
   text-align: left;
-  }
+  max-width: 355px;
+}
 
-.section3 > .row > .col-md-6 > p {
+.section3 > .container > .row > .col-md-6 > .text-wrapper > p {
   font-family: titlinglight;
   font-size: 24px;
   text-align: left;
-} */
+  max-width: 355px;
+}
 
+.section3 > .container > .row .col-md-6 {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
 
+.section3 > .container > .row > .alpha-col {
+  background-image: url("../images/alpha-background.png");
+  background-position: 50% 50%;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  min-height: 338px;
+}
 
+.section3 > .container > .row > .delta-col {
+  background-image: url("../images/delta-background.png");
+  background-position: 50% 50%;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  min-height: 338px;
+}
 
+@media only screen and (min-width: 768px) {
+  .section3 > .container > .row > .alpha-col {
+    border-right: 1px solid #242424;
+  }
 
-
-
-
-
+  .section3 > .container > .row > .gamma-col {
+    border-right: 1px solid #242424;
+  }
+}
 
 /* section4 */
 
-
 .section4 {
   border: none;
-  /*background-image: url("../images/section4.jpg");*/
   background-color: #141414;
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
+  background-position: center; 
+  background-repeat: no-repeat; 
   background-size: cover; /* Resize the background image to cover the entire container */
-  /* min-height: 218px; */
   background-color: #141414;
+  padding-top: 85px;
+
 }
 
 .section4 > div {
@@ -462,9 +472,16 @@ p.around-2 {
   font-size: 20px;
 }
 
+.section4 > .copyleft > p {
+  margin:0;
+}
+
 .section4 > .dummy-radio {
+  
   padding: 0;
+  
   margin: 0;
+  margin-top: 25px;
   text-align: center;
   background-color: #1669df;
 }
