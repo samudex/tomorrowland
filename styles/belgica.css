@@ -151,7 +151,7 @@ p.around-2 {
 }
 
 .section2 {
-  background-image: url("../images/section2.jpg");
+  background-image: url("../images/aftermovie.jpg");
   background-position: 50% 0%; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
@@ -228,18 +228,34 @@ p.around-2 {
 .sectionlinea {
   background-color: #141414;
   border: 1px solid red;
+  background-image: url("/images/");
 }
 
 .sectionlinea  h2{
   font-family: titlingbold;
   color: #ffffff;
   font-size: 48px;
+  margin: 30px 0;
 }
+
+
+.sectionlinea  h2:before {
+  content: "";
+  content: url("../images/horizontal-blue-stroke.png");
+  display: inline-block;
+  position: absolute;
+  transform: translate(0px, 30px);
+}
+
+
+
+
 
 .sectionlinea  h4{
   font-family: titlingstand;
   color: #ffffff;
   font-size: 24px;
+  margin-bottom: 30px;
 }
 
 .sectionlinea  h3, p{
@@ -257,6 +273,23 @@ p.around-2 {
 
 
 
+
+.carousel-indicators {
+  bottom: -50px;
+}
+
+.carousel-indicators li {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: #1669df;
+  opacity: 1  !important;
+}
+
+
+.carousel-indicators li:not(.active) {
+  background-color: #75bbf6;
+}
 
 
 /* section3 */
