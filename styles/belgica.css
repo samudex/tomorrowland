@@ -271,7 +271,12 @@ p.around-2 {
   font-size: 24px;
 }
 
-
+.carousel {
+	margin: 20px 10px 40px 0;
+}
+.gallery {
+	margin-bottom: 50px;
+}
 
 
 .carousel-indicators {
