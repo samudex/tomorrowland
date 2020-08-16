@@ -239,6 +239,16 @@ p.around-2 {
 
 #sectionlineaone {
   background-image: url("../images/sectionlinea-bg-2.jpg");
+
+}
+
+#sectionlineatwo {
+  background-image: url("../images/sectionlinea-bg-3.jpg");
+
+}
+
+#sectionlineathree {
+  background-image: url("../images/sectionlinea-bg-4.jpg");
   border: 1px solid red; 
 }
 
@@ -246,7 +256,8 @@ p.around-2 {
   font-family: titlingbold;
   color: #ffffff;
   font-size: 48px;
-  margin: 30px 0;
+  margin: 30px 0 30px 10px;
+
 }
 
 
@@ -324,11 +335,11 @@ p.around-2 {
 
 /* sectionlineaone */
 
-#sectionlineaone h2, h4 {
+#sectionlineaone h2, h4, #sectionlineatwo h2, h4, #sectionlineathree h2{
   visibility: hidden;
 }
 
-#sectionlineaone h3::before {
+#sectionlineaone h3::before, #sectionlineatwo h3::before, #sectionlineathree h3::before {
   content: "";
   content: url("../images/horizontal-blue-stroke.png");
   display: inline-block;
