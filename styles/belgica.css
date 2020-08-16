@@ -333,7 +333,7 @@ p.around-2 {
   content: url("../images/horizontal-blue-stroke.png");
   display: inline-block;
   position: absolute;
-  top: -30px;
+  transform: translate(0, -45px);
 }
 
 
