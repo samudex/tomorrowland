@@ -274,6 +274,13 @@ p.around-2 {
 .carousel {
 	margin: 20px 10px 40px 0;
 }
+
+@media only screen and (max-width: 600px) {
+  .carousel {
+    margin: 10px 0 40px 0;
+  }
+
+}
 .gallery {
 	margin-bottom: 50px;
 }
