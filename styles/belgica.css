@@ -227,19 +227,20 @@ p.around-2 {
 
 .sectionlinea {
   background-color: #141414;
-  border: 1px solid red;
-
-  background-image: url("../images/sectionlinea-bg.jpg");
-
+  border: 1px solid #141414;  
   background-position: top; 
   background-repeat: no-repeat; /* Do not repeat the image */
-
+  
 }
 
+#sectionlineazero{
+  background-image: url("../images/sectionlinea-bg.jpg");
+}
 
-
-
-
+#sectionlineaone {
+  background-image: url("../images/sectionlinea-bg-2.jpg");
+  border: 1px solid red; 
+}
 
 .sectionlinea  h2{
   font-family: titlingbold;
@@ -256,10 +257,6 @@ p.around-2 {
   position: absolute;
   transform: translate(0px, 30px);
 }
-
-
-
-
 
 .sectionlinea  h4{
   font-family: titlingstand;
@@ -295,6 +292,10 @@ p.around-2 {
 	margin-bottom: 50px;
 }
 
+.carousel-control-prev, .carousel-control-next {
+ opacity: 0;
+}
+
 
 .carousel-indicators {
   bottom: -50px;
@@ -312,6 +313,31 @@ p.around-2 {
 .carousel-indicators li:not(.active) {
   background-color: #75bbf6;
 }
+
+.gallery > .row .col-md-5 {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+
+/* sectionlineaone */
+
+#sectionlineaone h2, h4 {
+  visibility: hidden;
+}
+
+#sectionlineaone h3::before {
+  content: "";
+  content: url("../images/horizontal-blue-stroke.png");
+  display: inline-block;
+  position: absolute;
+  top: -30px;
+}
+
+
+
 
 
 /* section3 */
