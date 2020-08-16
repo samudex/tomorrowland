@@ -227,6 +227,139 @@ p.around-2 {
   padding: 0;
 }
 
+
+.section3 {
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    min-height: 570px;
+    background-color: #141414;
+  }
+  
+  .section3 > .row > .col-md-6 {
+    min-height: 300px;
+    max-height: 300px;
+  }
+  
+  .section3 > .row > .col-md-6 > .button-container {
+    text-align: center;
+    padding: 70px 0 0 250px;
+  }
+  
+  @media only screen and (max-width: 375px) {
+    .section3 > .row > .col-md-6 > .button-container {
+      text-align: center;
+      padding: 0;
+    }
+  }
+  
+  .section3 > .row > .alpha-col {
+    background-image: url("../images/lareunion.jpg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    border-right: 1px solid #242424;
+    border-bottom: 1px solid #242424;
+  }
+  
+  .section3 > .row > .beta-col {
+    /* background-image: url("../images/dreamville.jpg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;  */
+    border-bottom: 1px solid #242424;
+  }
+  
+  .section3 > .row > .gamma-col {
+    /* background-image: url("../images/instalaciones.jpg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;  */
+    border-right: 1px solid #242424;
+  }
+  
+  .section3 > .row > .col-md-6 > h3 {
+    font-family: titlinglight;
+    font-size: 48px;
+    color: #ffffff;
+    text-align: left;
+    padding: 50px 0 0 0px;
+  }
+
+  .section3 > .row > .col-md-6 > p {
+    font-family: titlinglight;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: left;
+    /* padding: 50px 0 0 0px; */
+  }
+
+  
+  .section3 > .row > .col-md-6 > .amistad > h3 {
+    font-family: titlinglight;
+    font-size: 48px;
+    color: #ffffff;
+    text-align: left;
+  }
+  
+  .section3 > .row > .col-md-6 > h3::before,
+  .section3 > .row > .col-md-6 > .amistad > h3::before {
+    content: "";
+    content: url("../images/horizontal-stroke.png");
+    display: inline-block;
+    position: absolute;
+    transform: translate(0px, 10px);
+  }
+  .section3 > .row > .delta-col {
+    padding-top: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .section3 > .row > .delta-col > h3 {
+    text-align: left;
+    padding: 0;
+  }
+  
+  .section3 > .row > .delta-col > .amistad {
+    display: inline-block;
+    text-align: left;
+  }
+  
+  .section3 > .row > .delta-col > .amistad > p {
+    color: white;
+    font-family: titlinglight;
+    font-size: 24px;
+    max-width: 355px;
+  }
+  
+  @media only screen and (min-width: 400px) {
+    .section3 > .row > .delta-col > .amistad > .auxilio {
+      display: inline-block;
+      position: absolute;
+      bottom: -8%;
+      right: 19%;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .section3 > .row > .delta-col > .amistad > .auxilio {
+      text-align: center;
+    }
+  }
+  
+  @media only screen and (max-width: 400px) {
+    .section3 > .row > .delta-col > .amistad > p {
+      font-size: 1rem;
+    }
+  }
+  
+  .section3 > .row > .col-md-6 > button {
+    position: absolute;
+    right: 150px;
+    bottom: 20px;
+  }
+
+
+
+
+
 .section4 {
   border: none;
   /*background-image: url("../images/section4.jpg");*/
