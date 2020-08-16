@@ -233,6 +233,30 @@ p.around-2 {
   
 }
 
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+  
+    #sectionlineaone, #sectionlineathree{
+      background-position: left top; 
+      background-position: -6vw 0px;
+    }
+
+    #sectionlineazero, #sectionlineatwo {
+      background-position: right top; 
+      background-position: -124vw 0px;
+    }
+
+}
+
 #sectionlineazero{
   background-image: url("../images/sectionlinea-bg.jpg");
 }
