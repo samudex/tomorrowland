@@ -1,46 +1,46 @@
 @font-face {
-    font-family: Roboto;
-    src: url('../fonts/Roboto-Black.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: Robotoregular;
-    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: robotolight;
-    src: url('../fonts/Roboto-Light.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: robotothin;
-    src: url('../fonts/Roboto-Thin.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: titlingstand;
-    src: url('../fonts/TitlingGothicFBComp-Stand.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: titlinglight;
-    src: url('../fonts/TitlingGothicFBComp-Light.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: titlingbold;
-    src: url('../fonts/TitlingGothicFBComp-Bold.otf') format('opentype');
-    font-weight: bold;
-    font-style: normal;
-  }
+  font-family: Roboto;
+  src: url("../fonts/Roboto-Black.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Robotoregular;
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: robotolight;
+  src: url("../fonts/Roboto-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: robotothin;
+  src: url("../fonts/Roboto-Thin.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: titlingstand;
+  src: url("../fonts/TitlingGothicFBComp-Stand.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: titlinglight;
+  src: url("../fonts/TitlingGothicFBComp-Light.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: titlingbold;
+  src: url("../fonts/TitlingGothicFBComp-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}

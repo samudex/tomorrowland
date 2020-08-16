@@ -3,8 +3,6 @@ p {
 }
 
 button {
-  /* margin-bottom: 20px;
-      margin-right: 20px; */
   background-color: #76bbf4;
   border: none;
   font-family: Roboto;
@@ -26,16 +24,16 @@ h2.helper {
   position: absolute;
   font-size: 14px;
   /* visibility: hidden; */
-   display: none; 
+  display: none;
 }
 
 /* banner styles */
 
 .banner {
   background-image: url("../images/banner-belgica.png");
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: 438px;
   background-color: #04529c;
 }
@@ -119,13 +117,6 @@ h2.helper {
   width: 100px;
 }
 
-/* 
-  @media only screen and (min-width: 768px) {
-    .banner > .flex-container > .tickets {
-      padding-top: 187px;
-    }
-  } */
-
 p.around-1 {
   font-family: titlingbold;
   font-size: 48px;
@@ -149,9 +140,9 @@ p.around-2 {
 
 .section2 {
   background-image: url("../images/aftermovie.jpg");
-  background-position: 50% 0%; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
+  background-position: 50% 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: 627px;
   background-color: #141414;
 }
@@ -189,9 +180,6 @@ p.around-2 {
 
   display: inline-block;
   transform: translate(0px, 6px);
-  /* width: 10px; 
-    height: 128px;
-    transform: scale(.8); */
 }
 
 .section2 > .tomo > ul.vive {
@@ -226,7 +214,7 @@ p.around-2 {
   background-color: #141414;
   border: 1px solid #141414;
   background-position: top;
-  background-repeat: no-repeat; /* Do not repeat the image */
+  background-repeat: no-repeat;
 }
 
 @media only screen and (max-width: 768px) {
@@ -257,7 +245,6 @@ p.around-2 {
 
 #sectionlineathree {
   background-image: url("../images/sectionlinea-bg-4.jpg");
-  
 }
 
 .sectionlinea h2 {
@@ -282,7 +269,8 @@ p.around-2 {
   margin-bottom: 30px;
 }
 
-.sectionlinea h3, .sectionlinea p {
+.sectionlinea h3,
+.sectionlinea p {
   color: #ffffff;
   font-family: titlinglight;
 }
@@ -308,18 +296,13 @@ p.around-2 {
   margin-bottom: 50px;
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
   background-image: url("../images/botonflecha.png");
   width: 100px;
   height: 100px;
   opacity: 0;
-  
 }
-
-/* .carousel-control-prev,
-.carousel-control-next {
-  opacity: 0;
-} */
 
 .carousel-indicators {
   bottom: -50px;
@@ -356,7 +339,8 @@ h4,
 
 #sectionlineaone h3::before,
 #sectionlineatwo h3::before,
-#sectionlineathree h3::before, .text-wrapper > h3::before {
+#sectionlineathree h3::before,
+.text-wrapper > h3::before {
   content: "";
   content: url("../images/horizontal-blue-stroke.png");
   display: inline-block;
@@ -412,14 +396,14 @@ h4,
 .section3 > .container > .row > .alpha-col {
   background-image: url("../images/alpha-background.png");
   background-position: 50% 50%;
-  background-repeat: no-repeat; /* Do not repeat the image */
+  background-repeat: no-repeat;
   min-height: 338px;
 }
 
 .section3 > .container > .row > .delta-col {
   background-image: url("../images/delta-background.png");
   background-position: 50% 50%;
-  background-repeat: no-repeat; /* Do not repeat the image */
+  background-repeat: no-repeat;
   min-height: 338px;
 }
 
@@ -438,12 +422,11 @@ h4,
 .section4 {
   border: none;
   background-color: #141414;
-  background-position: center; 
-  background-repeat: no-repeat; 
-  background-size: cover; /* Resize the background image to cover the entire container */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: #141414;
   padding-top: 85px;
-
 }
 
 .section4 > div {
@@ -473,13 +456,12 @@ h4,
 }
 
 .section4 > .copyleft > p {
-  margin:0;
+  margin: 0;
 }
 
 .section4 > .dummy-radio {
-  
   padding: 0;
-  
+
   margin: 0;
   margin-top: 25px;
   text-align: center;

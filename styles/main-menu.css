@@ -19,13 +19,11 @@
   padding: 20px 8px;
 }
 
-
 .main-menu > ul.topnav li a {
   display: block;
   color: white;
   text-align: center;
   text-decoration: none;
-  
 }
 
 a.logo {
@@ -34,16 +32,11 @@ a.logo {
 
 .main-menu > ul.topnav li a:hover:not(.active) {
   background-color: #111;
-
 }
 
 .main-menu > ul.topnav li a.active {
-  /* text-decoration: underline;
-  text-decoration-style: solid 2px;
-  text-decoration-color: #1881ff;
-  text-underline-position: under; */
-  border-bottom:5px solid #1881ff;
-  margin-bottom:-5px;
+  border-bottom: 5px solid #1881ff;
+  margin-bottom: -5px;
 }
 
 .main-menu > ul.topnav li.right {
