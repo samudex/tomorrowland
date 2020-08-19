@@ -39,6 +39,12 @@ button::after {
 .banner > .flex-container > .around {
   padding-bottom: 20px;
 }
+@media only screen and (max-width: 600px) {
+  .flex-item.around {
+    padding-top: 20px;
+  }
+}
+
 
 .banner > .flex-container > .around > a.botonflecha > img {
   position: absolute;

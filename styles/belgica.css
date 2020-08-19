@@ -57,6 +57,11 @@ h2.helper {
   padding-bottom: 20px;
 }
 
+@media only screen and (max-width: 600px) {
+  .flex-item.around {
+    padding-top: 20px;
+  }
+}
 .banner > .flex-container > .around > a.botonflecha > img {
   position: absolute;
   transform: translate(250px, -83px);
@@ -360,16 +365,6 @@ h4,
   max-height: 300px;
 }
 
-.section3 > .row > .alpha-col {
-  border-right: 1px solid #242424;
-  border-bottom: 1px solid #242424;
-}
-
-.section3 > .row > .delta-col {
-  border-left: 1px solid #242424;
-  border-top: 1px solid #242424;
-}
-
 .section3 > .container > .row > .col-md-6 > .text-wrapper > h3 {
   font-family: titlinglight;
   font-size: 42px;
@@ -410,6 +405,11 @@ h4,
 @media only screen and (min-width: 768px) {
   .section3 > .container > .row > .alpha-col {
     border-right: 1px solid #242424;
+    border-bottom: 1px solid #242424;    
+  }
+
+  .section3 > .container > .row > .beta-col {
+    border-bottom: 1px solid #242424;
   }
 
   .section3 > .container > .row > .gamma-col {
